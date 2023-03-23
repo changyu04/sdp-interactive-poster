@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+.body {
+  background: white;
+}
+
+.Home {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.login {
+  color: darkslateblue;
+}
+
+.login-box {
+  margin-top: 100px;
+}
+.table {
+  padding: 100px;
+  margin: 100px !important;
+}
+
+.form {
+  max-width: 330px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.form .form__custom-button {
+  margin-top: 50px;
+  background-color: darkslateblue
+}
+
+h1 {
+  text-align: center;
+  color:black ;
+  padding: 50px;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  width: 100%;
+  vertical-align: middle; 
+}
+
+.logo {
+  height: 60px; 
+  width: 200px;
+  padding-top: 50px;
+}
+.divider{
+  width:1300px;
+  height:auto;
+  display:inline-block;
+}
+
+
+.survey {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  height: 50px;
+  
+  border: 1px solid #E6E6E6;
+  border-radius: 10px;
+
+}
+
+.image {
+  width: 200;
+  height: 100;
+  } 
+  
+.smallwords {
+  color: 'white';
+  font-size: medium;
+  font-weight: 200;
+}
+
+.moti-content {
+  color:black;
+  height: 200px;
+  width: 1950px;
+  display:flex;
+  justify-content: space-evenly;
+  align-items:center ;
+  flex-wrap: wrap;
+  
+ }
+
+
+table {
+  text-align: center;
+  border-width:1px ;
+  border-color: grey; 
+  border-style: solid;
+  margin:auto;
+  width: 700px;
+  height: 200px;
+  font-size: 12px;
+
+}
+  
+th {
+  background-color: rgb(133, 170, 209);
+  text-align: center;
+  border-bottom: 1px;
+  border-color: black;
+  font-size: 20;
+}
+td {
+  text-align: center;
+  border-width:"1px";
+  border-color: black; 
+  border-style: solid;
+  background-color: white;
+  font-size: 10;
+}
+.method-content {
+  color:black;
+  height: 1000px;
+  width: 1950px;
+  display:flex;
+  flex-direction: column;
+  justify-content:  safe ;
+  align-items:center ;
+  flex-wrap: wrap;
+  
+ }
+.result-content {
+color:black;
+height: 1000px;
+width: 1950px;
+display:flex;
+flex-direction: column;
+align-items:center ;
+flex-wrap: wrap;
+justify-content:safe ;
+
+}
+
+.inputs {
+  height: 25px;
+  width: 200px;
+  color: gray;
+  margin-left: 950px;
+}
+
+.about-content {
+  color:black;
+  height: 200px;
+  width: 1950px;
+  display:flex;
+  justify-content: space-evenly;
+  align-items:center ;
+  flex-wrap: wrap;
+  
+ }
