@@ -6,7 +6,7 @@ const Aboutitems = () => {
     <div class="about-content">
         <div class="item-1">
             <h5>Justin Hong</h5>
-            <img style={{width:550,height:680, marginRight:50,paddingBottom:"30px"}} src={require('../assets/indusres.png')}></img>
+            <img style={{width:250,height:300, marginRight:50}} src={require('../assets/justin.jpeg')}></img>
         </div>
         
         <div class="item-2">
@@ -15,12 +15,12 @@ const Aboutitems = () => {
             <h5></h5>
         </div>
         <div class="item-3">
-            <h5 style={{padding:"20px"}}>Lim Chang Yu</h5>
-            <img style={{width:570,height:180, marginRight:50}} src={require('../assets/ressummary.png')}></img>
+            <h5>Lim Chang Yu</h5>
+            <img style={{width:250,height:300, marginRight:50}} src={require('../assets/cy.jpeg')}></img>
         </div>
         <div class="item-4">
             <h5>Yan Jie</h5>
-            <img style={{width:450,height:530, marginRight:50}} src={require('../assets/recommendations.png')}></img>
+            <img style={{width:225,height:300, marginRight:50}} src={require('../assets/Yan_Jie.jpg')}></img>
         </div>
         <div class="item-5">
             <h5>Cindy Ursia</h5>
