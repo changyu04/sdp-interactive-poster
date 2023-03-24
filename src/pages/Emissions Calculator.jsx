@@ -72,17 +72,17 @@ const Calculator = () => {
   }
   return (
     <div style={style}>
-      <h2 style={{paddingTop:"80px", paddingLeft:"950px",paddingBottom:"20px"}}>Estimate the Emissions of a Company!</h2>
+      <h2 style={{paddingTop:"80px", paddingLeft:"950px",paddingBottom:"20px"}}>Estimate the Emissions of Your Company!</h2>
       <img style={{width:350,height:300, marginLeft:950}} src={require('../assets/co2.jpg')}></img>
       <h5 style={{paddingLeft:"950px",paddingTop:"30px",paddingBottom:"20px"}}>First, more about the company (2021 Data):</h5>
       <form onSubmit={calculate}>
         <input type="text" id="companyname" placeholder='Company Name:' className='inputs' ref={nameref}></input>
         <p></p>
-        <input type="number" id="Revenue" placeholder='Revenue (Billion USD):' className='inputs' ref={revref}></input>
+        <input type="text" id="Revenue" placeholder='Revenue (Billion USD):' className='inputs' ref={revref}></input>
         <p></p>
-        <input type="number" id="Energy Consumption" placeholder= 'Energy Consumption (Billion MJ)' className='inputs' ref={enconref}></input>
+        <input type="text" id="Energy Consumption" placeholder= 'Energy Consumption (Billion MJ)' className='inputs' ref={enconref}></input>
         <p></p>
-        <input type="number" id="Headcount" placeholder='Headcount:' className='inputs' ref={headcountref}></input>
+        <input type="text" id="Headcount" placeholder='Headcount:' className='inputs' ref={headcountref}></input>
         <p></p>
         <select name="Subsector" id="Subsector" className='inputs' ref={subref}>
           <option selected="Subsector">Subsector</option>
