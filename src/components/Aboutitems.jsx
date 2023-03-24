@@ -28,16 +28,16 @@ const Aboutitems = () => {
         </div>
         <div class="quote quote1">
             <text style={{fontWeight:"bold"}}>
-                Strategic thinking is a critical <br/>
+                "Strategic thinking is a critical <br/>
                 skill to have in distilling <br/>
-                both problems and insights. <br/>
+                both problems and insights." <br/>
             </text>
         </div>
         <div class="quote quote2">
             <text style={{fontWeight:"bold"}}>
-                There is no business to be done<br/>
+                "There is no business to be done<br/>
                 on a dead planet.<br/>
-                ESG investing is the way to go. <br/>
+                ESG investing is the way to go." <br/>
             </text>
         </div>
         <div class="quote quote3">
@@ -51,7 +51,7 @@ const Aboutitems = () => {
             <text style={{fontWeight:"bold"}}>
                 “Sustainability is no longer<br/>
                 about doing less harm. <br/>
-                Its about doing more good<br/>
+                Its about doing more good."<br/>
                 
             </text>
         </div>
@@ -61,7 +61,7 @@ const Aboutitems = () => {
                 are two sides of the same coin.<br/>
                 If we cannot sustain the<br/>
                 environment, we cannot <br/>
-                sustain ourselves. <br/>
+                sustain ourselves." <br/>
             </text>
         </div>
     </div>
