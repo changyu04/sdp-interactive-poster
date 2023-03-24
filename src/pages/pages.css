@@ -169,18 +169,21 @@ justify-content:safe ;
 
 .inputs {
   height: 25px;
-  width: 200px;
+  width: 270px;
   color: gray;
   margin-left: 950px;
 }
 
 .about-content {
   color:black;
-  height: 200px;
-  width: 1950px;
+  height: 550px;
+  width: 1920px;
   display:flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content:space-around ;
   align-items:center ;
   flex-wrap: wrap;
+  align-content: center;
+  gap:30px;
   
  }

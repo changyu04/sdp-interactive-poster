@@ -78,9 +78,9 @@ const Calculator = () => {
       <form onSubmit={calculate}>
         <input type="text" id="companyname" placeholder='Company Name:' className='inputs' ref={nameref}></input>
         <p></p>
-        <input type="number" id="Revenue" placeholder='Revenue:' className='inputs' ref={revref}></input>
+        <input type="number" id="Revenue" placeholder='Revenue (Billion USD):' className='inputs' ref={revref}></input>
         <p></p>
-        <input type="number" id="Energy Consumption" placeholder= 'Energy Consumption' className='inputs' ref={enconref}></input>
+        <input type="number" id="Energy Consumption" placeholder= 'Energy Consumption (Billion MJ)' className='inputs' ref={enconref}></input>
         <p></p>
         <input type="number" id="Headcount" placeholder='Headcount:' className='inputs' ref={headcountref}></input>
         <p></p>
