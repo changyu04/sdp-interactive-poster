@@ -31,4 +31,5 @@ As the project utilises packages such as flexbox, boostrap etc, there may be err
 npm install react-flexbox --save
 npm i react-bootstrap
 ````
+Should the elements in the webapp not fit your screen, do zoom in and out to adjust the fit appropriately.
 In the future, should this page be launched on the internet, the link will be updated here. 
