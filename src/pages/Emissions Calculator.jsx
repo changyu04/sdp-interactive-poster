@@ -1,4 +1,4 @@
-import {useState, useRef} from 'react'
+import {useRef} from 'react'
 import background from "../assets/backgroundhalf.png"
 //import Flexbox from 'flexbox-react';
 import '../pages/pages.css'
@@ -14,7 +14,7 @@ const Calculator = () => {
     height: "100vh",
     backgroundSize: "cover",
   }
-  const [message, setMessage] = useState('');
+  //const [message, setMessage] = useState('');
   const nameref = useRef(undefined);
   const revref = useRef(undefined);
   const enconref = useRef(undefined);
@@ -30,40 +30,40 @@ const Calculator = () => {
     let Subsector = subref.current.value;
     let Region = regionref.current.value;
     let Emission = 17.4374 + 11.8991*Rev + 10.26*EnCon + 4.4345*Headcount 
-    if (Subsector == 'Gas Distribution') {
+    if (Subsector === 'Gas Distribution') {
       Emission += 9.7373
     }
-    if (Subsector == 'Gas Extraction') {
+    if (Subsector === 'Gas Extraction') {
       Emission -= 1.3651
     }
-    if (Subsector == 'Oil Extraction') {
+    if (Subsector === 'Oil Extraction') {
       Emission += 3.0114
     }
-    if (Subsector == 'Petroleum Refinery') {
+    if (Subsector === 'Petroleum Refinery') {
       Emission += 5.3446
     }
-    if (Subsector == 'Supporting Activities') {
+    if (Subsector === 'Supporting Activities') {
       Emission += 0.7093
     }
-    if (Region == 'North America') {
+    if (Region === 'North America') {
       Emission -= 2.4005
     }
-    if (Region == 'South America') {
+    if (Region === 'South America') {
       Emission += 19.0622
     }
-    if (Region == 'China') {
+    if (Region === 'China') {
       Emission -= 7.1914
     }
-    if (Region == 'Europe') {
+    if (Region === 'Europe') {
       Emission -= 8.0651
     }
-    if (Region == 'Russia') {
+    if (Region === 'Russia') {
       Emission += 5.1968
     }
-    if (Region == 'Australia') {
+    if (Region === 'Australia') {
       Emission += 8.2958
     }
-    if (Region == 'India') {
+    if (Region === 'India') {
       Emission += 2.5396
     }
     // event.target.reset();
@@ -76,13 +76,13 @@ const Calculator = () => {
       <img style={{width:350,height:300, marginLeft:950}} src={require('../assets/co2.jpg')}></img>
       <h5 style={{paddingLeft:"950px",paddingTop:"30px",paddingBottom:"20px"}}>First, more about the company (2021 Data):</h5>
       <form onSubmit={calculate}>
-        <input type="text" id="companyname" placeholder='Company Name:' className='inputs' ref={nameref}></input>
+        <input type="text" id="companyname" placeholder='Company Name:' className='inputs' autoComplete='off' ref={nameref}></input>
         <p></p>
-        <input type="text" id="Revenue" placeholder='Revenue (Billion USD):' className='inputs' ref={revref}></input>
+        <input type="text" id="Revenue" placeholder='Revenue (Billion USD):' className='inputs' autoComplete='off' ref={revref}></input>
         <p></p>
-        <input type="text" id="Energy Consumption" placeholder= 'Energy Consumption (Billion MJ)' className='inputs' ref={enconref}></input>
+        <input type="text" id="Energy Consumption" placeholder= 'Energy Consumption (Billion MJ)' autoComplete='off' className='inputs' ref={enconref}></input>
         <p></p>
-        <input type="text" id="Headcount" placeholder='Headcount:' className='inputs' ref={headcountref}></input>
+        <input type="text" id="Headcount" placeholder='Headcount:' className='inputs' autoComplete='off' ref={headcountref}></input>
         <p></p>
         <select name="Subsector" id="Subsector" className='inputs' ref={subref}>
           <option selected="Subsector">Subsector</option>
@@ -106,7 +106,7 @@ const Calculator = () => {
         <p></p>
         <button style={{width:"130px", marginLeft:"950px"}} type="submit">Calculate</button>
         <button style={{width:"130px", marginLeft:"950px",marginTop:"10px"}} type="reset">Reset</button>
-        <h1></h1>
+
       </form>
     </div>
  
